@@ -1,5 +1,10 @@
 (function() {
 
+var Trig = (function () {
+    function Trig() {
+    }
+}());
+
 Trig.CLOSE_ENOUGH_DISTANCE = 4;
 Trig.TOLERANCE_DISTANCE = 4;
 Trig.TOLERANCE_DISTANCE_SQR = 16;
