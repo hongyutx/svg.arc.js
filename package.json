@@ -2,7 +2,7 @@
   "name": "svg.arc.js",
   "version": "0.0.2",
   "description": "arc for svgjs",
-  "main": "svg.arc.js",
+  "main": "dist/svg.arc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -36,7 +36,7 @@
     "grunt-bumper": "^1.0.4"
   },
   "dependencies": {
-    "svg.js":">=2.5.x"
+    "svg.js":">=2.5.0"
   }
 
 
