@@ -1,0 +1,23 @@
+{
+  "name": "svg.arc.js",
+  "version": "0.0.1",
+  "description": "arc for svgjs",
+  "main": "svg.arc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongyutx/svg.arc.js.git"
+  },
+  "keywords": [
+    "svgjs",
+    "arc"
+  ],
+  "author": "Hong Yu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hongyutx/svg.arc.js/issues"
+  },
+  "homepage": "https://github.com/hongyutx/svg.arc.js#readme"
+}
