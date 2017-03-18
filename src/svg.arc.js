@@ -1,8 +1,12 @@
+import 'svgjs';
+
 (function() {
 
 var Trig = (function () {
     function Trig() {
     }
+
+    return Trig;
 }());
 
 Trig.CLOSE_ENOUGH_DISTANCE = 4;
