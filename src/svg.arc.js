@@ -98,6 +98,13 @@ SVG.extend(SVG.BBox, {
   }
 })
 
+SVG.extend(SVG.Circle, {
+    inside: function(x, y) {
+        return x >= this.cx() - this.rx() && y >= this.cy() - this.ry() && x <= this.cx() + this.rx() &&
+            y <= this.cy() + this.ry();
+    }
+})
+
 SVG.Arc = SVG.invent({
   // Initialize node
   create: 'path'
