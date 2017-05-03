@@ -1,12 +1,5 @@
-// Type definitions for svg.js
-// Project: http://www.svgjs.com/
-// Definitions by: Sean Hess <https://seanhess.github.io/>
-// Definitions: https://github.com/borisyankov/DefinitelyTyped
-// Reference: http://documentup.com/wout/svg.js
+// Type definitions for svg.arc.js
 
-
-// TODO sets
-// TODO gradients
 export = svgjs;
 export as namespace svgjs;
 

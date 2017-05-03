@@ -40,6 +40,9 @@ SVG.extend(SVG.Element, {
   , translateFull: function(x, y, relative) {
     return this.transform({ x: x, y: y }, relative)
   }
+  , container() {
+      return this.parent(SVG.Container);
+  }
 })
 
 SVG.extend(SVG.Line, {
