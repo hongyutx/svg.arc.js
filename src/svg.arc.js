@@ -93,6 +93,9 @@ SVG.extend(SVG.Point, {
   ,equals: function(p) {
     return this.x==p.x && this.y==p.y;
   }
+  ,closeEnough(x, y) {
+        return Math.abs(this.x - x) <= Trig.CLOSE_ENOUGH_DISTANCE && Math.abs(this.y - y) <= Trig.CLOSE_ENOUGH_DISTANCE;
+  }  
 })
 
 SVG.extend(SVG.BBox, {

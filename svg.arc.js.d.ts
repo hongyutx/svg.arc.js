@@ -18,5 +18,6 @@ declare module svgjs {
         sweep(): number;
         length(): number;
         ptOnArc(pt: Point): boolean;
+        closeEnough(x: number, y: number): boolean;
     }
 }
