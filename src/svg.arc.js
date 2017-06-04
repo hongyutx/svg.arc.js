@@ -111,6 +111,12 @@ SVG.extend(SVG.Circle, {
     }
 })
 
+SVG.extend(SVG.Rect, {
+    inside: function(x, y) {
+        return x >= this.x() && x <= this.x() + this.width() && y >= this.y() && y <= this.y() + this.height();
+    }
+})
+
 SVG.Arc = SVG.invent({
   // Initialize node
   create: 'path'
