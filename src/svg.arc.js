@@ -115,16 +115,16 @@ SVG.extend(SVG.Rect, {
     leftTopX: function() {
         return this.x();
     }
-    leftTopY: function() {
+    ,leftTopY: function() {
         return this.y();
     }
-    rightBottomX: function() {
+    ,rightBottomX: function() {
         return this.x()+this.width();
     }
-    rightBottomY: function() {
+    ,rightBottomY: function() {
         return this.y() + this.height();
     }
-    inside: function(x, y) {
+    ,inside: function(x, y) {
         return x >= this.x() && x <= this.x() + this.width() && y >= this.y() && y <= this.y() + this.height();
     }
 })
